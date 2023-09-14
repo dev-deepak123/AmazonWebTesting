@@ -1,0 +1,17 @@
+
+1.  first you import this project into your eclipse.
+
+2.  After that if you want to run test case into handless mode than click 
+    on the src/main/resources package and in that package there is Xml 
+    file which name is testNgHeadless.xml
+
+3.  And also in that another XML file which is simply run the all test 
+    Cases.
+
+4.  if you want to run this in fireFox than in the configProperties package 
+    you change the browser value.
+   
+5.  Extent report is generated in the test-output(amazon_extent reports) folder
+
+Note:firstly you login your browser and in the config.properties file give
+the amazon userId and password before continue the testing

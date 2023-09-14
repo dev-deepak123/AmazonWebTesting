@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Amazon Website Test Automation Test Suite">
+	
+	<listeners>
+		<listener class-name = "ExtentReportListener.ExtentReportTestNG" />
+	</listeners>
+
+	<test  name="Amazon Website Test Cases">
+		<classes>
+			
+			<class name="AmazonTestWithLogin.LoginPageTest" />
+			<class name="AmazonTestWithLogin.HomePageTest" />
+			<class name="AmazonTestWithLogin.AddToCartTest" />
+			<class name="AmazonTestWithLogin.AccountPageTest" />
+			<class name="AmazonTestWithLogin.DeliverAddressPageTest" />
+			<class name="AmazonTestWithLogin.SignUpPageTset" />
+			<class name="AmazonTestWithLogin.ReturnAndOrderPageTest" />
+			
+			
+		</classes>
+	</test> <!-- Test -->
+	
+</suite> <!-- Suite -->
